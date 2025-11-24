@@ -1,0 +1,9 @@
+Model,Precision,Recall,F1-Score,ROC-AUC,PR-AUC
+Simple Autoencoder,0.973,0.4966,0.6575,0.5534,0.9794
+LSTM Autoencoder,0.973,0.4966,0.6575,0.5276,0.978
+Isolation Forest,0.973,0.4966,0.6575,0.4879,0.9683
+Transformer Only,1.0,0.5103,0.6758,0.9862,0.9996
+Transformer + Masking,1.0,0.5103,0.6758,0.9776,0.9994
+Transformer + Contrastive,1.0,0.5103,0.6758,0.9948,0.9999
+Transformer + GAN,1.0,0.5103,0.6758,0.9655,0.999
+Full Framework (All Components),1.0,0.5103,0.6758,0.9776,0.9994
